@@ -19,5 +19,6 @@ def server_config():
     exit('[!] Invalid port!')
       
   ngrok = config.get('config', 'NGROK')
+  auth_token = config.get('config', 'AUTH_TOKEN')
 
-  return port, passcode, ngrok
+  return port, passcode, ngrok, auth_token 

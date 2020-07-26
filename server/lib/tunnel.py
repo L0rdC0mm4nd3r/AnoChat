@@ -6,8 +6,9 @@ import sys
 
 # Forwards server port to be publicly accessed on the internet#
 #-------------------------------------------------------------#
-def port_forward(port):
+def port_forward(port,auth_token):
 	try:
+		ngrok.set_auth_token(auth_token)
 		pyngrok_config = PyngrokConfig(monitor_thread = False)
 		server_addr = ngrok.connect(port, 'tcp', pyngrok_config=pyngrok_config)
 		
