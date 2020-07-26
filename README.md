@@ -86,6 +86,9 @@ Tested on the following systems
 
 * **NOT TESTED ON WINDOWS** but should probably work except for the colors
 
+## Having Trouble using AnoChat?
+
+If you encounter any trouble while running this program, Screenshot and send me through l0rdc0mm4nd3r@yahoo.com or [Telegram](https:t.me/L0rdComm4nd3r)
 
 ## Author
 
