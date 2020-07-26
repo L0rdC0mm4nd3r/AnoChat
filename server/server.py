@@ -26,8 +26,7 @@ if __name__ == '__main__':
 	os.system('clear')
 	print(server_banner())
 
-	#check_update()
-
+	check_update()
 	port, passcode, ngrok = server_config()
 	buf = 128000
 	
