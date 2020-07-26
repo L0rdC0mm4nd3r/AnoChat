@@ -27,7 +27,8 @@ if __name__ == '__main__':
 	print(server_banner())
 
 	check_update()
-	port, passcode, ngrok = server_config()
+
+	port, passcode, ngrok, auth_token = server_config()
 	buf = 128000
 	
 	sock = socket(AF_INET, SOCK_STREAM)
@@ -37,7 +38,7 @@ if __name__ == '__main__':
 	sock.listen(10)
 
 	if ngrok == 'TRUE':
-		port_forward(port)
+		port_forward(port,auth_token)
 	else:
 		print('[\033[1;92m*\033[m] Server running in port %s' % port)
 		pass
