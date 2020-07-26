@@ -20,7 +20,7 @@ def recieve_messages(name,client,client_address,key,clients,names,keys,passcode,
 		incoming_msg = message_sanitizer(incoming_msg)
 
 		if incoming_msg == '!quit':
-			print('[\033[1;91m-\033[m] %s left the chatroom' % name)
+			print('[%s] [\033[1;91m-\033[m] %s left the chatroom' % (time.strftime("%X"),name))
 			broadcast('%s%s-%s %s%s %sleft the chatroom%s' % (bold,red,reset,reset,name,red,reset),clients,keys)
 			client.close()
 			del clients[client]			

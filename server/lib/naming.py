@@ -29,7 +29,7 @@ def ask_name(client,client_address,key,clients,names,keys,passcode,buf,public_ke
 	clients[client] = name
 	time.sleep(2)
 	client.send(bytes(encrypt(key, '%s%s~ Hello %s,Welcome to AnoChat chatroom! Use !help for help%s\n' % (bold,blue,name,reset))))
-	print('[\033[1;92m*\033[m] '+name+' Entered the chat room!')
+	print('[%s] [\033[1;92m*\033[m] %s Entered the chat room!' % (time.strftime("%X"),name))
 
 	time.sleep(2)
 	broadcast('%s%s+%s %s%s %sjoined the chat!%s'%(green,bold,reset,reset,name,blue,reset),clients,keys)
