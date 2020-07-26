@@ -92,11 +92,11 @@ Tested on the following systems
 
 ## Having Trouble using AnoChat?
 
-If you encounter any trouble while running this program, Screenshot and send me through l0rdc0mm4nd3r@yahoo.com or [Telegram](https:t.me/L0rdComm4nd3r)
+If you encounter any trouble while running this program, Screenshot and send me through l0rdc0mm4nd3r@yahoo.com or [Telegram](https://t.me/L0rdComm4nd3r)
 
 ## Author
 
-* **Lord Commander** [Github repo](https://github.com/L0rdC0mm4nd3r/) and [Telegram](https:t.me/L0rdComm4nd3r)
+* **Lord Commander** [Github repo](https://github.com/L0rdC0mm4nd3r/) and [Telegram](https://t.me/L0rdComm4nd3r)
 
 ## License
 
