@@ -1,4 +1,4 @@
-<a href="https://github.com/L0rdC0mm4nd3r/AnoChat"><img src="https://github.com/L0rdC0mm4nd3r/pdfscrape/blob/master/banner.png" title="Anochat" alt="AnoChat"></a>
+<a href="https://github.com/L0rdC0mm4nd3r/AnoChat"><img src="https://github.com/L0rdC0mm4nd3r/AnoChat/blob/master/logo.png" title="Anochat" alt="AnoChat"></a>
 
 # AnoChat
 
