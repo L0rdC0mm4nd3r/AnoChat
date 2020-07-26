@@ -1,0 +1,5 @@
+pycryptodome
+beautifulsoup4
+configparser
+stdiomask
+pyngrok
