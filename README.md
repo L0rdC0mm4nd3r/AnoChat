@@ -31,7 +31,7 @@
 > Clone this repo
 
 ```
-gitclone https://github.com/L0rdC0mm4nd3r/AnoChat
+git clone https://github.com/L0rdC0mm4nd3r/AnoChat
 ```
  
 > Install required libraries
