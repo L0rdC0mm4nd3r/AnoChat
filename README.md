@@ -24,7 +24,7 @@
 
 - pyngrok
 
-- beautifulsoup4
+- BeautifulSoup
 
 ## Installation 
 
@@ -71,7 +71,7 @@ python3 anochat.py <server_ip> <server_port>
 
 ## Author
 
-* **Lord Commander** [Github repo](https://github.com/L0rdC0mm4nd3r/) [Telegram](https:t.me/L0rdComm4nd3r)
+* **Lord Commander** [Github repo](https://github.com/L0rdC0mm4nd3r/) and [Telegram](https:t.me/L0rdComm4nd3r)
 
 ## License
 
