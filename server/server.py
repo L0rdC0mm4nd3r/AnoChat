@@ -2,6 +2,7 @@
 from socket import AF_INET, socket, SOCK_STREAM
 from threading import Thread
 import signal
+import time
 import sys
 import os
 #-------------------------------------------------------------#
@@ -25,7 +26,7 @@ if __name__ == '__main__':
 	os.system('clear')
 	print(server_banner())
 
-	check_update()
+	#check_update()
 
 	port, passcode, ngrok = server_config()
 	buf = 128000
@@ -39,7 +40,7 @@ if __name__ == '__main__':
 	if ngrok == 'TRUE':
 		port_forward(port)
 	else:
-		print('[\033[1;92m*\033[m]Server running in port %s' % port)
+		print('[\033[1;92m*\033[m] Server running in port %s' % port)
 		pass
 	
 	signal.signal(signal.SIGINT, handle_interruption)
