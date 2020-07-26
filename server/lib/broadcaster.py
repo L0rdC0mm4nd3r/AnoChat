@@ -38,7 +38,7 @@ def recieve_messages(name,client,client_address,key,clients,names,keys,passcode,
 			client.send(bytes(encrypt(key,help_msg)))
 
 		elif incoming_msg == '!contact':
-			contact = '\n%sContact the Author%s\n Telegram : t.me/L0rdComm4nd3r\n Github : github.com/L0rdC0mm4nd3r : @yahoo.com' % (bold,reset)
+			contact = '\n%sContact the Author%s\n Telegram : t.me/L0rdComm4nd3r\n Github : github.com/L0rdC0mm4nd3r Email: l0rdc0mm4nd3r@yahoo.com' % (bold,reset)
 			client.send(bytes(encrypt(key,contact)))
 			
 		else:
@@ -53,3 +53,4 @@ def broadcast(msg,clients,keys):
 		message = encrypt(key,msg)
 		client.send(bytes(message))
 		count+=1
+
