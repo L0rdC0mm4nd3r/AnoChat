@@ -3,6 +3,7 @@
 # AnoChat
 
 > Anochat is an encrypted chatting system built over TCP
+
 > It's purely written in python3
 
 ## Features
@@ -27,16 +28,16 @@
 
 ## Installation 
 
-> clone this repo
+> Clone this repo
 
 ```
 gitclone https://github.com/L0rdC0mm4nd3r/pdfscrape
 ```
  
-> Run the setup
+> Install required libraries
 
 ```
-python3 setup.py
+pip3 install -r requirements.txt
 ```
 
 ## Usage
@@ -60,14 +61,13 @@ python3 anochat.py <server_ip> <server_port>
 
 ## Screenshots
 
-![IMG1](https://github.com/L0rdC0mm4nd3r/pdfscrape/blob/master/gif.gif)
-![IMG2](https://github.com/L0rdC0mm4nd3r/pdfscrape/blob/master/gif.gif)
-![IMG3](https://github.com/L0rdC0mm4nd3r/pdfscrape/blob/master/gif.gif)
-![IMG4](https://github.com/L0rdC0mm4nd3r/pdfscrape/blob/master/gif.gif)
-![IMG5](https://github.com/L0rdC0mm4nd3r/pdfscrape/blob/master/gif.gif)
-![IMG6](https://github.com/L0rdC0mm4nd3r/pdfscrape/blob/master/gif.gif)
-![IMG7](https://github.com/L0rdC0mm4nd3r/pdfscrape/blob/master/gif.gif)
-![IMG8](https://github.com/L0rdC0mm4nd3r/pdfscrape/blob/master/gif.gif)
+![IMG1](https://github.com/L0rdC0mm4nd3r/AnoChat/blob/master/screenshots/1.png)
+![IMG2](https://github.com/L0rdC0mm4nd3r/AnoChat/blob/master/screenshots/2.png)
+![IMG3](https://github.com/L0rdC0mm4nd3r/AnoChat/blob/master/screenshots/3.png)
+![IMG4](https://github.com/L0rdC0mm4nd3r/AnoChat/blob/master/screenshots/4.png)
+![IMG5](https://github.com/L0rdC0mm4nd3r/AnoChat/blob/master/screenshots/5.png)
+![IMG6](https://github.com/L0rdC0mm4nd3r/AnoChat/blob/master/screenshots/6.png)
+![IMG7](https://github.com/L0rdC0mm4nd3r/AnoChat/blob/master/screenshots/7.png)
 
 ## Author
 
