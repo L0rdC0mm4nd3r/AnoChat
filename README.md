@@ -31,7 +31,7 @@
 > Clone this repo
 
 ```
-gitclone https://github.com/L0rdC0mm4nd3r/pdfscrape
+gitclone https://github.com/L0rdC0mm4nd3r/AnoChat
 ```
  
 > Install required libraries
@@ -43,7 +43,7 @@ pip3 install -r requirements.txt
 ## Usage
 
 Ngrok will be used by default to mask your machine also to make it accessable from WAN
-How ever if the server is hosted on Termux ngrok will fail So you'll have to change the
+,how ever if the server is hosted on Termux ngrok will fail.So you'll have to change the
 value of ngrok by opening server.ini inside config directory.
 
 Port and Passcode can also be changed by opening server.ini inside config directory.
@@ -75,7 +75,7 @@ python3 anochat.py <server_ip> <server_port>
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
