@@ -47,6 +47,10 @@ Ngrok will be used by default to mask your machine also to make it accessable fr
 value of ngrok by opening server.ini inside config directory and manually start ngrok to
 tunnel connection
 
+Since Ngrok will be used by default you'll have to get your auth token from ngrok.io then add it to 
+AUTH_NGROK in the server configuration file (server.ini) which is found in server/config/server.ini
+if auth_token isn't provided the server will terminate
+
 Port and Passcode can also be changed by opening and modifying server.ini inside config directory.
 
 You can start the server by changing directory to server and
